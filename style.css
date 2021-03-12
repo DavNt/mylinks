@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./img/173318.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: rgb(203, 216, 243);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.header p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.linkbtn a{
+    text-decoration: none;
+}
+
+.linkbtn button{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(203, 216, 243);
+    width: 600px;
+    height: 50px;
+    margin: 15px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #40917c;
+    border-radius: 30px;
+}
+
+.linkbtn button:hover{
+    background-color: #365049;
+    background-blend-mode: color-burn;
+    opacity: 0.5;
+}
+
+footer p{
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    margin-top: 140px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .header p{
+        font-size: 22px;
+    }
+
+    .linkbtn button{
+        font-size: 15px;
+        width: 250px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+}
