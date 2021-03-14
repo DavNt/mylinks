@@ -5,7 +5,7 @@
     A host of all links associated with you, for the purpose of easily sharing them.
   </h2>
   <h3>
-    <a href="https://ntlinks.app">
+    <a href="https://ntlinks.netlify.app" target="_blank">
       Demo
     </a>
   </h3>
